@@ -1,0 +1,10 @@
+module sub
+(
+  input  [31:0] rs, rt, 
+  output [31:0] in
+);
+
+  
+  assign  in = rs - rt;
+  
+endmodule
